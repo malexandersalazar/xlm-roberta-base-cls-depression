@@ -6,7 +6,11 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-xlm--roberta--base--cls--depression-blue)](https://huggingface.co/malexandersalazar/xlm-roberta-base-cls-depression)
 
-A fine-tuned XLM-RoBERTa model for detecting depression indicators in multilingual text, trained on a rich dataset of 40,000+ expressions generated using Claude 3.5 Sonnet (Anthropic's Language Model) through the Message Batches API. The model is available on the Hugging Face Hub.
+Depression represents one of the most significant global health challenges of our time. According to the World Health Organization (2023), it affects 3.8% of the world's population—approximately 280 million people—making it the leading cause of disability worldwide. The impact is particularly severe among younger populations, with WHO reporting that half of all mental health conditions begin before age 14, and suicide ranking as the fourth leading cause of death among 15-29 year-olds.
+
+This multilingual depression detection model addresses this critical need by leveraging advanced natural language processing to identify depression indicators across six languages. Trained on a rich dataset of 4000+ expressions generated using Claude 3.5 Sonnet (Anthropic's Language Model) through the Message Batches API, the model achieves 98.7% accuracy in detecting depression-related content. With depression and anxiety costing the global economy US$ 1 trillion annually in lost productivity (World Bank, 2023), tools for early detection and intervention are more crucial than ever.
+
+The model is available on the Hugging Face Hub, offering a production-ready solution for mental health monitoring and support systems.
 
 ## 🌟 Key Features
 
