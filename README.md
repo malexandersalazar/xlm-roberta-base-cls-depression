@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-xlm--roberta--base--cls--depression-blue)](https://huggingface.co/malexandersalazar/xlm-roberta-base-cls-depression)
 
-A fine-tuned XLM-RoBERTa model for detecting depression indicators in multilingual text, trained on a rich dataset of 4000+ expressions generated using Claude 3.5 Sonnet (Anthropic's Language Model) through the Message Batches API. The model is available on the Hugging Face Hub.
+A fine-tuned XLM-RoBERTa model for detecting depression indicators in multilingual text, trained on a rich dataset of 40,000+ expressions generated using Claude 3.5 Sonnet (Anthropic's Language Model) through the Message Batches API. The model is available on the Hugging Face Hub.
 
 ## 🌟 Key Features
 
