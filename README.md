@@ -49,13 +49,11 @@ The model is available on the Hugging Face Hub, offering a production-ready solu
 - Spanish
 
 ### Text Length Categories
-| Length Category | Proportion |
-|----------------|------------|
-| 3-8 words      | 20%        |
-| 9-15 words     | 10%        |
-| 16-35 words    | 40%        |
-| 36-60 words    | 20%        |
-| 61-90 words    | 10%        |
+- 3-8 words
+- 9-15 words
+- 16-35 words
+- 36-60 words
+- 61-90 words
 
 ## 🛠️ Technical Architecture
 
@@ -123,10 +121,10 @@ Total number of texts: 39,914 (not including external sentiment dataset)
 - Social Impact: 7,710 texts (19.32%)
 
 4. **Distribution by Text Length**
-- 16-35 words: 18,602 texts (46.61%)
-- 36-60 words: 7,037 texts (17.63%)
 - 3-8 words: 6,822 texts (17.09%)
 - 9-15 words: 5,034 texts (12.61%)
+- 16-35 words: 18,602 texts (46.61%)
+- 36-60 words: 7,037 texts (17.63%)
 - 61-90 words: 2,353 texts (5.9%)
 
 ### Model Development
@@ -241,11 +239,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use this model in your research, please cite:
 
 ```bibtex
-@software{xlm-roberta-depression,
-  title = {XLM-RoBERTa Depression Detection Model},
-  year = {2024},
-  author = {Alexandr Salazar},
-  url = {https://github.com/malexandersalazar/xlm-roberta-base-cls-depression}
+@software{malexandersalazar_xlm_roberta_base_cls_depression,
+    author = {Salazar, Alexander},
+    title = {XLM-RoBERTa Depression Detection Model},
+    year = {2025},
+    month = {1},
+    url = {https://github.com/malexandersalazar/xlm-roberta-base-cls-depression},
+    version = {1.0.0},
+    date = {2025-01-03},
+    abstract = {A fine-tuned XLM-RoBERTa model for detecting depression indicators in multilingual text, trained on a rich dataset of 40,000+ expressions generated using Claude 3.5 Sonnet (claude-3-5-sonnet-20241022) through the Message Batches API. The model achieves 98.7% accuracy and is available on the Hugging Face Hub.},
+    keywords = {depression-detection, mental-health, xlm-roberta, multilingual, natural-language-processing}
 }
 ```
 
