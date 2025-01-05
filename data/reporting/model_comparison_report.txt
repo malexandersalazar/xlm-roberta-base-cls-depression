@@ -1,0 +1,33 @@
+Model Comparison Report
+=====================
+
+PYTORCH Model Metrics:
+====================
+Accuracy: 0.9867
+Precision: 0.9799
+Recall: 0.9827
+F1 Score: 0.9813
+ROC-AUC Score: 0.0927
+Average Inference Time: 145.00 ms
+Inference Time Std: 2.78 ms
+
+ONNX Model Metrics:
+====================
+Accuracy: 0.9867
+Precision: 0.9799
+Recall: 0.9827
+F1 Score: 0.9813
+ROC-AUC Score: 0.0927
+Average Inference Time: 146.90 ms
+Inference Time Std: 3.08 ms
+
+ONNX_QUANT Model Metrics:
+====================
+Accuracy: 0.9871
+Precision: 0.9811
+Recall: 0.9827
+F1 Score: 0.9819
+ROC-AUC Score: 0.0679
+Average Inference Time: 74.49 ms
+Inference Time Std: 7.80 ms
+
